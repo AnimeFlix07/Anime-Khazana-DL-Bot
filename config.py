@@ -1,15 +1,8 @@
-# Don't Remove Credit @CodeFlix_Bots, @rohit_1888
-# Ask Doubt on telegram @CodeflixSupport
-
-
 import os
 from os import environ,getenv
 import logging
 from logging.handlers import RotatingFileHandler
 
-#rohit_1888 on Tg
-
-#Bot token @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8142800315:AAFdofIyKMvsJ3LWu0xKCuzK4CUuD73jXvc:")
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "20093900"))
@@ -28,7 +21,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://abubakkarblogger:ABU BAKK
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster1")
 
 #Time in seconds for message delete, put 0 to never delete
-TIME = int(os.environ.get("TIME", "10"))
+TIME = int(os.environ.get("TIME", "1800"))
 
 
 #force sub channel id, if you want enable force sub
